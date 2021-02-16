@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Register from './pages/Register.vue'
 import Login from './pages/login.vue'
 import Home from './pages/home.vue'
 import About from './pages/about.vue'
@@ -24,7 +25,8 @@ const routes = [
   {path:'/Kamru',component:Kamru },
   {path:'/Nako',component:Nako },
   {path:'/Sangla-Valley',component:SanglaValley },
-  {path:'/contact-us',component:Contact }
+  { path: '/contact-us', component: Contact },
+  {path:'/Register',component:Register }
 ];
 const router = new VueRouter({
   routes,

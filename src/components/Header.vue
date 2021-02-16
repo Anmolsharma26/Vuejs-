@@ -9,6 +9,7 @@
             <li><router-link to="/about">About</router-link></li>
             <li><router-link to="/destination">Destination</router-link></li>
             <li><router-link to="/contact-us">Contact us</router-link></li>
+            <li><router-link to="/login">Login</router-link>/<router-link to="/Register">Register</router-link></li>
         </ul>
         </div>
     </header>

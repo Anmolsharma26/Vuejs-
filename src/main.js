@@ -9,7 +9,5 @@ Vue.use(IconsPlugin);
 new Vue({
   router,
   type   : 'loop',
-	perPage: 3,
-	perMove: 1,
   render: h => h(App),
 }).$mount('#app')

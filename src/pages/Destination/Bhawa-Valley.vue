@@ -1,7 +1,6 @@
 <template>
     <div class="discription">
-               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <p>
         <strong>Bhawa Valley</strong><br />
         From Wangtu on the Shimla-Kinnaur-Spiti highway, a road veers off to
@@ -11,8 +10,7 @@
         Pin-Parvati-Bhawa Pass to enter Kullu valley from one route and into Pin
         valley of Spiti from another diverging route.
       </p>
-            <img class="discription-img" alt="Sangla Valley" src="../../static/img/Bhawa-Valley-Kinnaur-min.jpg">
-
+      <img class="discription-img" alt="Sangla Valley" src="../../static/img/Bhawa-Valley-Kinnaur-min.jpg">
       </div>
 </template>
 <style scoped>

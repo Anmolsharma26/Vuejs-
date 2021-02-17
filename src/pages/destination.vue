@@ -78,7 +78,7 @@
 }
 .discription-img{
   height: 200px;
-  width: 400px;
+  width: 350px;
 }
 .discription{
   text-align: center;

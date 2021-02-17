@@ -1,4 +1,5 @@
 <template>
+<div class="form">
 <div class="register_form">
     <form @submit="formSubmit">
         <div class="form-group">
@@ -14,11 +15,13 @@
         </div>
     </form>
 </div>
+</div>
 </template>
 
 <script>
+//import axiox library
 import axios from 'axios'
-// import VueAxios from 'vue-axios'
+
 
 export default {
     name: "Register",
@@ -34,16 +37,21 @@ export default {
         console.log('Hello from Vue!')
     },
     methods: {
+        //create function for resister user
         formSubmit() {
+            //axios request form vue to php
             axios.post(`http://localhost/vueapp-routing/src/api.php?action=create`, null, {
+                //params for sending data from front-end to back-end
                    params:{ firstname: this.firstname,
                     lastname: this.lastname,
                     email: this.email,
                     password: this.password}
                 }).then(function (resp) {
+                    //checking responce
                     console.log(resp);
                 })
                 .catch(function (error) {
+                    //checking error
                     console.log(error);
                 });
         }
@@ -52,7 +60,13 @@ export default {
 </script>
 
 <style scoped>
+.form{
+    height: 71vh;
+}
 .register_form {
-    width: 40%;
+    margin-top:20% ;
+    border: 3px solid #4ca776;
+    padding: 25px;
+    border-radius: 5px;
 }
 </style>

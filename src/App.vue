@@ -26,6 +26,10 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 20px;
+
+}
+#app{
+  height: 100vh;
 }
 </style>
 

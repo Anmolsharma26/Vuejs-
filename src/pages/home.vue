@@ -58,10 +58,11 @@ export default {
 }
 .discription-img{
   height: 200px;
-  width: 400px;
+  width: 350px;
 }
 .discription{
   text-align: center;
+  width: 30%;
 }
 p{
   text-align: center;
